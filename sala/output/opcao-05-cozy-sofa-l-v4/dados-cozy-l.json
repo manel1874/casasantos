@@ -63,7 +63,7 @@
       },
       {
         "kind": "console",
-        "x": 3.0,
+        "x": 3,
         "y": 4.65,
         "w": 2.2,
         "h": 0.365,
@@ -75,7 +75,7 @@
         "x": 5.3,
         "y": 1.85,
         "w": 0.34,
-        "h": 3.0,
+        "h": 3,
         "face": "E",
         "label": ""
       },
@@ -98,7 +98,7 @@
       {
         "id": "G1",
         "x": 2.05,
-        "y": 1.0,
+        "y": 1,
         "type": "Teto",
         "c": "C1",
         "desc": "Plafon opalino; ambiente junto à fachada"
@@ -163,7 +163,7 @@
     "diameter": 0.7
   },
   "route": {
-    "x": 1.0,
+    "x": 1,
     "y": 0.35,
     "w": 0.9,
     "h": 4.45
@@ -173,7 +173,7 @@
     "depth": 1.95
   },
   "bookcase": {
-    "length": 3.0,
+    "length": 3,
     "depth": 0.34,
     "height": 2.2
   },
@@ -202,5 +202,29 @@
     "proposed_height": 0.9,
     "frame": "Madeira fina",
     "use": "Retirar e guardar noutra divisão antes do filme"
+  },
+  "sideArtwork": {
+    "wall": "direita, antes da estante",
+    "count": 2,
+    "width": 0.5,
+    "height": 0.7,
+    "gap": 0.12,
+    "centreHeight": 1.5,
+    "planCentres": [
+      {
+        "x": 5.62,
+        "y": 0.64,
+        "art": "Abstrato terracota, areia e verde"
+      },
+      {
+        "x": 5.62,
+        "y": 1.26,
+        "art": "Ramo botânico verde-azeitona"
+      }
+    ],
+    "frame": "Carvalho quente, perfil fino",
+    "paper": "Marfim com margem larga",
+    "use": "Permanecem na parede durante o cinema",
+    "status": "Proposta; alturas e implantação a confirmar no local"
   }
 }

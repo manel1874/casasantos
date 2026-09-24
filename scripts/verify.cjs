@@ -67,11 +67,16 @@ const paths = {
   await kitchenFrame.locator('#style').selectOption('japandi');
   await fits();
   await page.goto(base + paths.Sala);
+  assert.equal(await page.locator('#hero').getAttribute('src'), 'sala-quadros-laterais-geral-quadro.webp');
+  assert.equal(await page.getByRole('heading', { name: 'Dois quadros para o canto junto à janela' }).count(), 1);
   for (const scene of ['quadro', 'livre', 'cinema']) {
     await page.locator(`[data-scene="${scene}"]`).click();
     for (const view of ['interior', 'geral']) {
       await page.locator(`[data-view="${view}"]`).click();
       await imageReady('#hero');
+      const expected = view === 'geral' ? `sala-quadros-laterais-geral-${scene}.webp` : `sala-atual-interior-${scene}.webp`;
+      assert.equal(await page.locator('#hero').getAttribute('src'), expected);
+      assert.equal(await page.locator('#open-current-image').getAttribute('href'), expected);
     }
   }
   await page.locator('[data-plan="luz"]').click();

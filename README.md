@@ -28,6 +28,8 @@ Os originais permanecem nas pastas do projeto de interiores, fora deste reposit�
 python3 scripts/import-materials.py /caminho/para/casa
 ```
 
+Para atualizar apenas uma divisão, acrescentar `--room sala`, `--room cozinha` ou `--room escritorio`.
+
 O importador preserva a resolução dos desenhos, converte fotografias e imagens de ambiente para WebP e acrescenta a navegação comum às galerias. O importador não deve ser executado sobre a própria pasta deste repositório.
 
 ## Verificação

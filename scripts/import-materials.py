@@ -1,24 +1,28 @@
 """Import the existing room studies without changing the original project files.
 
-Usage: python scripts/import-materials.py /path/to/casa
+Usage: python scripts/import-materials.py /path/to/casa [--room sala]
 Requires Pillow. Runtime: plain static HTML; no Python is needed for hosting.
 """
 from pathlib import Path
-import os
+import argparse
 import re
 import shutil
-import sys
 from PIL import Image, ImageOps
 
-SOURCE = Path(sys.argv[1]).resolve()
 DEST = Path(__file__).resolve().parent.parent
 ROOMS = {
     'cozinha': ('Cozinha', 'output/atelier-varanda-3d/index.html'),
     'sala': ('Sala', 'output/opcao-05-cozy-sofa-l-v4/index.html'),
     'escritorio': ('Escritório', 'output/proposta-v1/index.html'),
 }
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('source', type=Path)
+parser.add_argument('--room', choices=ROOMS, help='Import only the selected room.')
+args = parser.parse_args()
+SOURCE = args.source.resolve()
+selected_rooms = [args.room] if args.room else list(ROOMS)
 ALLOWED = {'.html', '.css', '.js', '.json', '.md', '.txt', '.svg', '.pdf', '.glb', '.png', '.jpeg', '.jpg'}
-FILES = [p for room in ROOMS for p in (SOURCE / room).rglob('*')
+FILES = [p for room in selected_rooms for p in (SOURCE / room).rglob('*')
          if p.is_file() and p.suffix.lower() in ALLOWED
          and not {'tmp', 'node_modules', '__pycache__', '.git', 'anteriores'}.intersection(p.parts)
          and p.name not in {'ABRIR-GALERIA.md', 'modelo-3d-fonte.js'}]
@@ -60,7 +64,7 @@ for p in FILES:
             s = s.replace(before, after)
         # The living-room gallery builds its six view names dynamically.
         if relative.as_posix() == 'sala/output/opcao-05-cozy-sofa-l-v4/index.html':
-            s = s.replace("currentView+'-'+scene+'.png'", "currentView+'-'+scene+'.webp'")
+            s = s.replace("scene+'.png'", "scene+'.webp'")
         s = s.replace(str(SOURCE), 'Casa Santos')
         s = re.sub(r'/Users/[^\s"<>]+/([^/\s"<>]+)', r'\1', s)
         if p.suffix == '.html' and 'modelo-3d' not in p.name and 'http-equiv="refresh"' not in s:
@@ -78,18 +82,23 @@ for p in FILES:
         shutil.copy2(p, out)
 
 for room, (name, path) in ROOMS.items():
+    if room not in selected_rooms:
+        continue
     (DEST / room / 'index.html').write_text(f'<!doctype html><html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0;url={path}"><title>{name} · Casa Santos</title></head><body><p><a href="{path}">Abrir {name}</a></p></body></html>')
 
 # Homepage uses small dedicated covers; technical drawings keep their full resolution.
 for room, source in {
     'cozinha': 'cozinha/output/atelier-varanda-3d/atelier-varanda-v12-estilo-natural.png',
-    'sala': 'sala/output/opcao-05-cozy-sofa-l-v4/sala-atual-interior-quadro.png',
+    'sala': 'sala/output/opcao-05-cozy-sofa-l-v4/sala-quadros-laterais-geral-quadro.png',
     'escritorio': 'escritorio/output/proposta-v1/ambiente-interior.png',
 }.items():
+    if room not in selected_rooms:
+        continue
     with Image.open(SOURCE / source) as image:
         image = ImageOps.exif_transpose(image).convert('RGB')
         for width in (480, 960):
-            cover = ImageOps.fit(image, (width, round(width * 1.12)), centering=(0.5, 0.5))
+            focal_point = (0.92, 0.5) if room == 'sala' else (0.5, 0.5)
+            cover = ImageOps.fit(image, (width, round(width * 1.12)), centering=focal_point)
             cover.save(DEST / 'assets' / f'{room}-{width}.webp', quality=85, method=6)
 
 print(f'Imported {len(FILES)} project files ({original_bytes / 1048576:.1f} MB before image optimization).')

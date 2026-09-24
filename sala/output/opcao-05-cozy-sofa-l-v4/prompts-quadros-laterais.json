@@ -1,0 +1,37 @@
+{
+  "mode": "built-in image_gen; edição não destrutiva",
+  "proposal": {
+    "wall": "Troço livre da parede direita, entre a janela e a estante",
+    "frames": 2,
+    "externalWidthMetres": 0.5,
+    "externalHeightMetres": 0.7,
+    "gapMetres": 0.12,
+    "centreHeightMetres": 1.5,
+    "palette": [
+      "carvalho quente",
+      "marfim",
+      "verde-azeitona",
+      "terracota",
+      "areia"
+    ]
+  },
+  "images": [
+    {
+      "file": "sala-quadros-laterais-geral-quadro.webp",
+      "source": "sala-atual-geral-quadro.webp",
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic architectural visualization for an existing Portuguese living-room design gallery.\nInput image 1 is the edit target, not a style reference.\nPrimary request: add exactly two framed artworks to the EMPTY NEAR/FRONT SECTION OF THE RIGHT-HAND SIDE WALL, between the near facade/small window and the leading edge of the existing tall bookcase. This is the narrow blank beige side-wall strip visible at the extreme right of the image, not the back projection wall and not the facade.\nMake a calm pair of portrait prints, each approximately 50 cm wide × 70 cm tall, side by side ALONG THAT RIGHT SIDE WALL, 12 cm apart, both centered at 1.50 m above the floor. They must follow the wall's strong perspective and hang vertically flush against it, not float or face the camera. Thin medium warm oak frames, generous off-white paper margins. One print is a refined olive-green botanical branch drawing on warm ivory textured paper. The other is a restrained abstract terracotta and sand organic-shape composition with a very small olive accent, on matching ivory paper. Original generic art, no writing or logos. Natural non-reflective finish, delicate realistic frame shadows.\nIMPORTANT INVARIANTS: keep the exact elevated architectural camera, room geometry, wall lengths, all openings, cutaway roof, facade, balcony doors, small window and grille, parquet, niche, FIVE-BAY bookcase, all furniture, L-sofa and squared olive armchair shapes and positions, lamps, plants, lighting, existing rear landscape artwork and console unchanged. Only add the two framed prints to the described empty side-wall strip. Do not add shelves, lamps, furniture, people, wall labels, text, borders or arrows. Do not shorten or relocate the bookcase. Do not put any new art on the rear wall, window, facade or bookcase. Preserve the aspect ratio and composition of the edit target."
+    },
+    {
+      "file": "sala-quadros-laterais-geral-livre.webp",
+      "source": "sala-atual-geral-livre.webp",
+      "reference": "sala-quadros-laterais-geral-quadro.webp",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET. Image 2 is a reference for TWO SIDE-WALL FRAMED PRINTS ONLY.\nEdit Image 1 by adding exactly the same pair of small vertical framed prints shown on the empty near/front part of the RIGHT SIDE WALL in image 2. Match their size, spacing, height, frames, graphic designs and perspective exactly: warm thin oak frames, ivory paper, botanical olive branch nearer the bookcase, abstract terracotta/sand/olive print nearer the facade. They occupy only the empty side-wall strip between the bookcase and the near small-window corner, not the rear wall.\nKeep image 1's BACK WALL exactly as it is: blank beige plaster with NO artwork and NO projection.\nKeep all other image 1 pixels and visual properties as unchanged as possible: architecture, camera, image framing, facade, glazing, grille, niche, bookcase, L sofa, squared olive armchair, rug, table, consoles, plants, lamps, daylight and warm mood. Change only the addition of the two side-wall frames. Do not change, shrink or move the bookcase. No text, arrows, labels, people, new furniture or decorations. Same aspect ratio."
+    },
+    {
+      "file": "sala-quadros-laterais-geral-cinema.webp",
+      "source": "sala-atual-geral-cinema.webp",
+      "reference": "sala-quadros-laterais-geral-quadro.webp",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET. Image 2 is a reference for TWO SIDE-WALL FRAMED PRINTS ONLY.\nEdit Image 1 by adding exactly the same pair of small vertical framed prints shown on the empty near/front part of the RIGHT SIDE WALL in image 2. Match their size, spacing, height, frames, graphic designs and perspective exactly: warm thin oak frames, ivory paper, botanical olive branch nearer the bookcase, abstract terracotta/sand/olive print nearer the facade. They occupy only the empty side-wall strip between the bookcase and the near small-window corner, not the rear wall.\nKeep image 1's BACK WALL exactly as it is: the same projected Lisbon city scene, with NO rear framed artwork.\nKeep all other image 1 pixels and visual properties as unchanged as possible: architecture, camera, image framing, facade, glazing, grille, niche, bookcase, L sofa, squared olive armchair, rug, table, consoles, plants, lamps, daylight and warm mood. Change only the addition of the two side-wall frames. Do not change, shrink or move the bookcase. No text, arrows, labels, people, new furniture or decorations. Same aspect ratio."
+    }
+  ]
+}

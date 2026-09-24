@@ -64,3 +64,11 @@ Fonte editável: `../../tmp/modelo-3d/model.js`. O visualizador funciona localme
 ## Modelo integrado na galeria
 
 O modelo 3D está agora incorporado diretamente em `index.html`, na secção «A sala em 3D». A ligação «Explorar modelo 3D» desloca a página até essa secção. Mantêm-se os controlos de vista, medidas, pontos de luz e exportação; a altura do modelo adapta-se aos controlos e ao ecrã. A escolha entre quadro, parede livre e projeção é sincronizada nos dois sentidos com a galeria. A página independente continua disponível através de «Abrir numa janela maior».
+
+## Dois quadros laterais junto à janela
+
+Proposta para o troço livre da parede direita, entre a fachada e a estante: duas molduras verticais de carvalho, com dimensão exterior de estudo de 50 × 70 cm. Separação de 12 cm; centros a 1,50 m do pavimento. Uma gravura botânica em verde-azeitona junto à estante e uma composição abstrata em terracota e areia junto à janela, ambas sobre papel marfim com margem larga. O conjunto mede 1,12 m e deixa livre o chão da passagem. Confirmar as cotas no local.
+
+A dupla lateral permanece durante o cinema. Apenas o quadro maior na parede do fundo é retirado. Foram acrescentadas três novas vistas gerais, `sala-quadros-laterais-geral-{quadro,livre,cinema}.png`, editadas com a ferramenta integrada image_gen; prompts completos em `prompts-quadros-laterais.json`. Os ficheiros das simulações anteriores mantêm-se. As vistas interiores ficam iguais porque a parede decorada está fora do enquadramento.
+
+O modelo 3D e as exportações SVG/GLB incluem os dois quadros como geometria, sem texturas raster. As exportações anteriores estão em `modelos-3d-sem-quadros-laterais/` e a fonte anterior em `../../tmp/modelo-3d/model-sem-quadros-laterais.js`.

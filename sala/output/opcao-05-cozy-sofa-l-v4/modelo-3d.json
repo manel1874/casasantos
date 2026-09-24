@@ -255,5 +255,29 @@
       "modelos-3d/sala-cinema-superior.svg"
     ],
     "source": "../../tmp/modelo-3d/model.js"
+  },
+  "sideArtwork": {
+    "wall": "direita, antes da estante",
+    "count": 2,
+    "width": 0.5,
+    "height": 0.7,
+    "gap": 0.12,
+    "centreHeight": 1.5,
+    "planCentres": [
+      {
+        "x": 5.62,
+        "y": 0.64,
+        "art": "Abstrato terracota, areia e verde"
+      },
+      {
+        "x": 5.62,
+        "y": 1.26,
+        "art": "Ramo botânico verde-azeitona"
+      }
+    ],
+    "frame": "Carvalho quente, perfil fino",
+    "paper": "Marfim com margem larga",
+    "use": "Permanecem na parede durante o cinema",
+    "status": "Proposta; alturas e implantação a confirmar no local"
   }
 }
