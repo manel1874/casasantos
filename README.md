@@ -6,7 +6,7 @@ Site estático que reúne os projetos da cozinha, sala e escritório, com galeri
 - Barra inferior com as três divisões e início em telemóvel.
 - Imagens WebP e capas adaptadas ao tamanho do ecrã.
 - Sem dependências de execução, analítica ou fontes externas.
-- Repositório privado; o site publicado no GitHub Pages é público.
+- Repositório público e site publicado em https://manel1874.github.io/casasantos/.
 
 ## Pré-visualizar
 
