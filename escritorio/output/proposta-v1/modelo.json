@@ -1,0 +1,267 @@
+{
+  "units": "m",
+  "source": "../../planta.webp",
+  "room": {
+    "w": 3.31,
+    "d": 5.1,
+    "h": 2.65
+  },
+  "source_dimensions": {
+    "width": 3.31,
+    "length": 5.1,
+    "window_width": 2.0,
+    "window_height": 2.07,
+    "printed_area": 17.4,
+    "rectangle_area": 16.881
+  },
+  "inferred": {
+    "room_height": 2.65,
+    "window_sill": 0.25,
+    "window_x": 0.655,
+    "door_height": 2.1,
+    "wall_thickness": 0.18,
+    "doors": "Posições e larguras por leitura gráfica, sem cotas próprias. P9 abre para dentro e P10 para fora, conforme leitura do raster."
+  },
+  "doors": [
+    {
+      "id": "P9",
+      "z": 0.2,
+      "width": 0.75,
+      "swing": "in"
+    },
+    {
+      "id": "P10",
+      "z": 4.0,
+      "width": 0.75,
+      "swing": "out"
+    }
+  ],
+  "window": {
+    "x": 0.655,
+    "z": 5.1,
+    "w": 2.0,
+    "h": 2.07,
+    "sill": 0.25
+  },
+  "magnus": {
+    "model": "MAGNUS Metal Desk original",
+    "x": 2.56,
+    "z": 1.75,
+    "w": 0.7,
+    "d": 1.5,
+    "h": 0.735,
+    "wall_gap": 0.05,
+    "source": "https://secretlab.eu/pages/magnus-metal-desk"
+  },
+  "workbench": {
+    "x": 0,
+    "z": 0.35,
+    "w": 0.65,
+    "d": 4.4,
+    "h": 0.75,
+    "stations": 4,
+    "pitch": 1.1,
+    "top_thickness": 0.035,
+    "supports_z": [
+      0.35,
+      1.45,
+      2.55,
+      3.65,
+      4.73
+    ]
+  },
+  "work_chairs": [
+    {
+      "x": 0.89,
+      "z": 0.9
+    },
+    {
+      "x": 0.89,
+      "z": 2.0
+    },
+    {
+      "x": 0.89,
+      "z": 3.1
+    },
+    {
+      "x": 0.89,
+      "z": 4.2
+    }
+  ],
+  "office_chair": {
+    "x": 2.18,
+    "z": 2.5,
+    "base_diameter": 0.68
+  },
+  "monitors": {
+    "count": 2,
+    "nominal_inches": 27,
+    "width": 0.615,
+    "height": 0.365,
+    "screen_bottom": 0.99
+  },
+  "rug": {
+    "x": 0.755,
+    "z": 1.15,
+    "w": 1.8,
+    "d": 2.8,
+    "thickness": 0.008,
+    "material": "Lã/algodão de trama baixa, tom areia, base antiderrapante, sem franjas"
+  },
+  "upper_left": {
+    "x": 0,
+    "z": 0.55,
+    "w": 0.3,
+    "d": 4.0,
+    "bottom": 1.55,
+    "h": 0.7,
+    "modules": 8,
+    "module_width": 0.5,
+    "doors": "Portas de correr sobrepostas, com calha oculta"
+  },
+  "clearances": {
+    "between_worktops": 1.91,
+    "occupied_work_envelope_each": 0.6,
+    "between_occupied_envelopes": 0.71,
+    "magnus_to_P9": 0.8,
+    "magnus_to_P10": 0.75,
+    "workbench_end_each": 0.35,
+    "window_cabinet_gap": 0.55
+  },
+  "lighting": [
+    {
+      "id": "G1",
+      "x": 1.655,
+      "z": 1.25,
+      "type": "Plafon opalino de teto",
+      "circuit": "C1"
+    },
+    {
+      "id": "G2",
+      "x": 1.655,
+      "z": 3.85,
+      "type": "Plafon opalino de teto",
+      "circuit": "C1"
+    },
+    {
+      "id": "T1",
+      "x": 0.29,
+      "z": 2.55,
+      "type": "LED sob armários da bancada",
+      "circuit": "C2"
+    },
+    {
+      "id": "T2",
+      "x": 3.0,
+      "z": 2.5,
+      "type": "Candeeiro de secretária orientável",
+      "circuit": "Tomada E3"
+    }
+  ],
+  "notes": [
+    "3,31 × 5,10 m são as cotas legíveis do desenho. A área escrita é 17,40 m²; o retângulo cotado calcula 16,88 m². Não se alargou a divisão para forçar a área escrita.",
+    "Altura do teto, peitoril, espessuras e dimensões/posições das portas são hipóteses de representação, a medir no local.",
+    "As dimensões do móvel MAGNUS são do fabricante; usa-se a versão original de altura fixa, não a Pro.",
+    "A passagem de 71 cm é uma simulação com 60 cm de ocupação por pessoa para lá de cada tampo. Varia com as cadeiras e a sua posição; a circulação fica apertada com lugares opostos ocupados.",
+    "Arrumação suspensa de 30 cm de profundidade; portas de correr evitam folhas salientes sobre os utilizadores. Fixações e apoios de marcenaria a dimensionar para a parede e cargas reais.",
+    "Duas calhas de cabos por baixo dos tampos; alimentar cada parede sem cabos a atravessar o tapete.",
+    "O padrão de tacos em quadrados alternados retoma o da sala; cor e módulo são propostas visuais, não uma identificação da madeira existente.",
+    "Revisão pedida: removido o armário superior sobre a MAGNUS. Mantém-se apenas a arrumação sobre a bancada para quatro.",
+    "V3: cinco módulos de tampo, cada um com duas tomadas e uma porta USB-C. Móvel alto na opção 2, quadro branco na opção 3 e banco com arrumação na opção 5."
+  ],
+  "revision": "V3",
+  "power_modules": [
+    {
+      "id": "M1",
+      "desk": "workbench",
+      "x": 0.05,
+      "z": 0.8,
+      "w": 0.08,
+      "d": 0.2,
+      "h": 0.06,
+      "bottom": 0.75,
+      "ac_sockets": 2,
+      "usb_c": 1,
+      "mount": "Módulo de superfície no tampo; cabo recolhido sob a bancada"
+    },
+    {
+      "id": "M2",
+      "desk": "workbench",
+      "x": 0.05,
+      "z": 1.9,
+      "w": 0.08,
+      "d": 0.2,
+      "h": 0.06,
+      "bottom": 0.75,
+      "ac_sockets": 2,
+      "usb_c": 1,
+      "mount": "Módulo de superfície no tampo; cabo recolhido sob a bancada"
+    },
+    {
+      "id": "M3",
+      "desk": "workbench",
+      "x": 0.05,
+      "z": 3.0,
+      "w": 0.08,
+      "d": 0.2,
+      "h": 0.06,
+      "bottom": 0.75,
+      "ac_sockets": 2,
+      "usb_c": 1,
+      "mount": "Módulo de superfície no tampo; cabo recolhido sob a bancada"
+    },
+    {
+      "id": "M4",
+      "desk": "workbench",
+      "x": 0.05,
+      "z": 4.1000000000000005,
+      "w": 0.08,
+      "d": 0.2,
+      "h": 0.06,
+      "bottom": 0.75,
+      "ac_sockets": 2,
+      "usb_c": 1,
+      "mount": "Módulo de superfície no tampo; cabo recolhido sob a bancada"
+    },
+    {
+      "id": "M5",
+      "desk": "magnus",
+      "x": 2.7,
+      "z": 3.17,
+      "w": 0.2,
+      "d": 0.08,
+      "h": 0.06,
+      "bottom": 0.735,
+      "ac_sockets": 2,
+      "usb_c": 1,
+      "mount": "Módulo preso por grampo na aresta lateral; sem furar o tampo"
+    }
+  ],
+  "wall_options": {
+    "02": {
+      "kind": "storage",
+      "x": 0.855,
+      "z": 0,
+      "w": 1.6,
+      "d": 0.32,
+      "h": 2.15
+    },
+    "03": {
+      "kind": "whiteboard",
+      "x": 0.755,
+      "z": 0,
+      "w": 1.8,
+      "d": 0.06,
+      "h": 1.2,
+      "bottom": 0.8
+    },
+    "05": {
+      "kind": "storage_bench",
+      "x": 0.855,
+      "z": 0,
+      "w": 1.6,
+      "d": 0.4,
+      "h": 0.46
+    }
+  }
+}

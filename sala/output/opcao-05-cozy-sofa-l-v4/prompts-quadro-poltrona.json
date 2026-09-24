@@ -1,0 +1,49 @@
+{
+  "mode": "Ferramenta integrada image_gen; edição das simulações anteriores",
+  "requests": [
+    "Sugestão de quadro para a parede quando não há projeção",
+    "Retirar comparação com a anterior",
+    "Poltrona verde menos fofa, com linhas semelhantes ao sofá principal"
+  ],
+  "artwork": {
+    "description": "Proposta visual de paisagem abstrata, fundo areia, formas verde-azeitona e apontamento terracota, moldura fina de madeira",
+    "proposed_size_cm": [
+      150,
+      90
+    ],
+    "use": "Quadro removível; retirar para projetar diretamente na parede"
+  },
+  "initial_artwork_prompt": "Use case: precise-object-edit.\nInput image is the EDIT TARGET: the approved living room with a completely blank rear wall and no projection.\nAdd exactly ONE framed artwork on that blank rear wall above the low wooden media cabinet, centered over the cabinet and within the area previously used for projection.\nArtwork: an original understated horizontal abstract landscape painting, approximately 150cm wide x 90cm high, ratio 5:3. Thoughtful large organic shapes and a calm low horizon: warm ivory and sandy beige background, layered muted olive-green landforms, a small muted terracotta/clay accent and touches of warm umber. Subtle matte painterly texture, sophisticated quiet composition, no lettering, no signature, no recognizable landmark. Contemporary earthy art that complements the olive chair, pale tailored sofa and warm timber. Thin natural warm oak frame, no shiny glazing. Canvas with a slim depth that could be removed for film sessions; no visible suspension wires, wall track or added mechanism.\nKeep the piece modestly sized: the cabinet below is approximately 220cm wide; the artwork should be about TWO THIRDS the width of that cabinet, with good empty wall margins, not as large as the film projection. Lower edge approximately 30cm above the cabinet top, with the existing table lamp and plants left in place.\nPreserve EVERYTHING else as closely as possible: exact camera and framing, room shell, doors, niche, parquet, tailored L sofa, enlarged right bookshelf, sideboard behind sofa, all furniture and objects, plants, lamps, warm lighting and colors. Only add the framed painting and its subtle contact shadow; no other art, no new furniture, no projected image or glow. This is a physical original framed painting, not a television or luminous digital screen. Photorealistic interior concept.",
+  "selected_variants": [
+    {
+      "view": "interior",
+      "mode": "quadro",
+      "prompt": "Use case: precise-object-edit. Input is the EDIT TARGET of the current room WITH the proposed framed painting. Replace ONLY the small olive-green puffy armchair on the rear-left edge of the rug (between the doorway and coffee table) with a refined STRUCTURED single armchair matching the construction of the main cream sofa: straight low back, thin squared upholstered arms, firm rectangular seat cushion, neat rectangular back cushion and short exposed dark wooden feet. Keep muted olive-green flat-woven linen upholstery and the same compact footprint approx 78 x 78cm and orientation. It must clearly lose the inflated bulbous barrel silhouette, rounded balloon arms and tufted/puffy upholstery. Do NOT widen it into a loveseat. Keep the large cream L sofa exactly unchanged.\nPreserve all other image content as closely as possible: the exact abstract landscape painting and its frame, position and size, room geometry, camera, large L sofa, all bookshelves, two cabinets, coffee table, rug, plants, objects, ceiling and table lamps, lighting and colors. Only replace the olive armchair's design. No text or extra objects. Photorealistic."
+    },
+    {
+      "view": "geral",
+      "mode": "quadro",
+      "prompt": "Use case: precise-object-edit.\nInput 1 is the EDIT TARGET, an elevated room overview with a blank rear wall.\nInput 2 is a REFERENCE ONLY for the exact framed painting to transfer to input 1; retain input 1's camera and architecture.\nMake TWO changes:\n1. Replace ONLY the small olive-green puffy armchair on the rear-left edge of the rug (between the doorway and coffee table) with a refined STRUCTURED single armchair matching the construction of the main cream sofa: straight low back, thin squared upholstered arms, firm rectangular seat cushion, neat rectangular back cushion and short exposed dark wooden feet. Keep muted olive-green flat-woven linen upholstery and the same compact footprint approx 78 x 78cm and orientation. It must clearly lose the inflated bulbous barrel silhouette, rounded balloon arms and tufted/puffy upholstery. Do NOT widen it into a loveseat. Keep the large cream L sofa exactly unchanged.\n2. Add the EXACT SAME original abstract landscape artwork seen on the rear wall of image 2 to the corresponding blank rear wall of image 1, centered above the low media cabinet. Warm sandy/ivory sky, low layered olive landforms, small terracotta area, matte painterly texture and thin warm wood frame. Same composition and proportions, approx 150cm wide x 90cm high, about two thirds the media cabinet width, lower edge roughly 30cm above its top. Treat it as a real physical framed canvas, never a screen. Transform correctly with perspective. No projection or glow.\nPreserve EVERYTHING else in input 1: same elevated cutaway camera, room dimensions, facade glazing, doors, niche, large cream tailored L sofa, large right bookshelf, rear media cabinet and sideboard behind sofa, rug, coffee table, plants, lamps, light and palette. No restyling or moving other objects, no text."
+    },
+    {
+      "view": "interior",
+      "mode": "livre",
+      "prompt": "Use case: precise-object-edit. Input is the EDIT TARGET. Remove ONLY the framed landscape painting from the rear wall above the media cabinet, including frame and its shadow. Fill its location with seamless blank warm matte plaster matching the surrounding wall. Leave the entire wall empty, no picture, projection, rectangle, hardware, mark or glow. Do not relocate the artwork anywhere else. Preserve every other detail of this exact image: especially the NEW RECTILINEAR OLIVE ARMCHAIR with slim squared arms and firm cushions, main tailored L sofa, all furniture and objects, architecture, camera angle, frame, light and colors. Do not soften or change the armchair. No other changes, text or decorations."
+    },
+    {
+      "view": "interior",
+      "mode": "cinema",
+      "prompt": "Use case: precise-object-edit. Input 1 is the EDIT TARGET: the latest living room with rectilinear olive armchair and a framed painting. Input 2 is a REFERENCE ONLY for the projected film and its exact rectangular wall placement. Remove ONLY the painting and frame from input 1, restore the wall, then show the same projected film image as input 2 directly on that rear wall, with the same size, position and light. No painting or frame remains; no physical screen or TV. Preserve every other detail of input 1, especially the NEW RECTILINEAR OLIVE ARMCHAIR with slim squared arms and firm cushions, main cream L sofa, all furniture, objects, architecture, camera and warm lighting. Do not use the round puffy armchair from image 2. Do not relocate the painting. No text or unrelated changes."
+    },
+    {
+      "view": "geral",
+      "mode": "livre",
+      "prompt": "Use case: precise-object-edit. Input is the EDIT TARGET. Remove ONLY the framed landscape painting from the rear wall above the media cabinet, including frame and its shadow. Fill its location with seamless blank warm matte plaster matching the surrounding wall. Leave the entire wall empty, no picture, projection, rectangle, hardware, mark or glow. Do not relocate the artwork anywhere else. Preserve every other detail of this exact image: especially the NEW RECTILINEAR OLIVE ARMCHAIR with slim squared arms and firm cushions, main tailored L sofa, all furniture and objects, architecture, camera angle, frame, light and colors. Do not soften or change the armchair. No other changes, text or decorations."
+    },
+    {
+      "view": "geral",
+      "mode": "cinema",
+      "prompt": "Use case: precise-object-edit. Input 1 is the EDIT TARGET: the latest living room with rectilinear olive armchair and a framed painting. Input 2 is a REFERENCE ONLY for the projected film and its exact rectangular wall placement. Remove ONLY the painting and frame from input 1, restore the wall, then show the same projected film image as input 2 directly on that rear wall, with the same size, position and light. No painting or frame remains; no physical screen or TV. Preserve every other detail of input 1, especially the NEW RECTILINEAR OLIVE ARMCHAIR with slim squared arms and firm cushions, main cream L sofa, all furniture, objects, architecture, camera and warm lighting. Do not use the round puffy armchair from image 2. Do not relocate the painting. No text or unrelated changes."
+    }
+  ]
+}

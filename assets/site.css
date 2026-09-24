@@ -1,0 +1,45 @@
+/* Casa Santos: the same navigation across every room. */
+:root{--casa-ink:#2b392f;--casa-paper:#f5f1e9;--casa-line:#dcdcd0;--casa-muted:#61695f;color-scheme:light}
+html{scroll-behavior:smooth;scroll-padding-top:108px}
+body{margin:0}
+.casa-header,.casa-mobile-nav,.casa-header *,.casa-mobile-nav *{box-sizing:border-box}
+.casa-header{position:sticky;top:0;z-index:40;display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:86px;padding:14px clamp(20px,4vw,64px);background:var(--casa-paper);border-bottom:1px solid var(--casa-line);font:16px/1.3 Arial,Helvetica,sans-serif;color:var(--casa-ink)}
+.casa-brand{display:flex;align-items:center;gap:13px;color:inherit!important;text-decoration:none;white-space:nowrap;font-size:19px;font-weight:600;letter-spacing:-.6px;min-height:44px}
+.casa-monogram{font:italic 31px Georgia,serif;letter-spacing:-2px;border:1px solid #869080;border-radius:50%;width:48px;height:48px;display:grid;place-items:center;padding:0 3px 4px 0}
+.casa-nav{display:flex;align-items:center;gap:4px}.casa-nav a{display:flex;align-items:center;gap:8px;padding:12px 16px;min-height:46px;font-size:14px;font-weight:500;color:var(--casa-ink);text-decoration:none;border-radius:5px}
+.casa-nav svg,.casa-mobile-nav svg{width:21px;height:21px;flex:none}.casa-nav a:hover{background:#e5e8dd}.casa-nav a[aria-current=page]{color:white;background:var(--casa-ink)}
+.casa-header-note{font-size:12px;color:var(--casa-muted);max-width:100px;line-height:1.5}.casa-mobile-nav{display:none}
+.casa-skip{position:fixed;top:-100px;left:20px;z-index:100;background:var(--casa-ink);color:white;padding:14px 20px}.casa-skip:focus{top:10px}
+:where(a,button,select,input,summary):focus-visible{outline:3px solid #9b5f32;outline-offset:4px}
+.home-page{background:var(--casa-paper);color:var(--casa-ink);font:16px/1.6 Arial,Helvetica,sans-serif}
+.home-main{max-width:1600px;margin:0 auto;padding:clamp(28px,4.5vw,66px) clamp(20px,4vw,64px) 32px}
+.home-heading{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:32px}
+.home-kicker{margin:0 0 10px;text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:600;color:var(--casa-muted)}
+.home-heading h1{font:normal clamp(38px,4.3vw,64px)/1.12 Georgia,serif;letter-spacing:-1.8px;margin:0}
+.home-heading p:last-child{margin:0 0 4px;max-width:295px;color:var(--casa-muted);font-size:15px}
+.room-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px}
+.room-card{display:block;color:inherit;text-decoration:none;min-width:0}.room-cover{position:relative;overflow:hidden;background:#e2dfd3;aspect-ratio:1/1.12;border-radius:4px}
+.room-cover img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .6s cubic-bezier(.2,.6,.2,1)}
+.room-number{position:absolute;left:18px;top:18px;display:grid;place-items:center;width:37px;height:37px;border-radius:50%;background:#f5f1e9f0;font-size:12px}
+.room-enter{position:absolute;right:18px;bottom:18px;display:grid;place-items:center;width:46px;height:46px;border-radius:50%;background:var(--casa-paper);color:var(--casa-ink);font-size:26px;transition:background .2s,color .2s}
+.room-card:hover .room-cover img{transform:scale(1.025)}.room-card:hover .room-enter{background:var(--casa-ink);color:white}
+.room-text{padding:20px 0 19px;border-bottom:1px solid #cbd1c4}.room-title-row{display:flex;gap:12px;justify-content:space-between;align-items:center}
+.room-text h2{font:normal clamp(27px,2.3vw,36px)/1.2 Georgia,serif;margin:0 0 9px;letter-spacing:-.8px}.room-text p{font-size:14px;color:var(--casa-muted);margin:0}.room-type{font-size:12px;color:var(--casa-muted);white-space:nowrap}
+.home-footer{max-width:1600px;margin:0 auto;padding:0 clamp(20px,4vw,64px) 30px;display:flex;justify-content:space-between;gap:20px;color:var(--casa-muted);font-size:12px}.home-footer p{margin:0}
+.room-page{font-size:16px}.room-page main{scroll-margin-top:100px}.room-page p{font-size:16px}.room-page .intro{max-width:850px}.room-page .eyebrow{font-size:12px}.room-page .topline,.room-page .top{min-height:25px}.room-page .topline .eyebrow,.room-page .top .eyebrow{margin-top:0}
+.room-page .actions a,.room-page .actions button,.room-page .local-links,.room-page .native-links,.room-page .nav button,.room-page .views button,.room-page .style-copy button,.room-page .archive-toolbar label,.room-page .thumb span{font-size:14px}
+.room-page button,.room-page a.button,.room-page select,.room-page summary{min-height:44px}.room-page summary{display:list-item;align-content:center}.room-page .skip{display:none}.room-page .path{display:none}.room-page img{max-width:100%}
+.room-page .caption-row p,.room-page .caption,.room-page .section-intro,.room-page .modelnote,.room-page .model-panel p,.room-page .style-copy p,.room-page .archive-caption{font-size:14px}
+@media(max-width:1050px){.casa-header-note{display:none}.casa-nav a{padding:12px}.room-grid{gap:18px}.room-type{display:none}}
+@media(max-width:760px){
+ html{scroll-padding-top:90px}.casa-header{min-height:72px;padding:11px 20px;position:relative}.casa-brand{font-size:18px}.casa-monogram{width:42px;height:42px;font-size:29px}.casa-header-note{display:block;max-width:120px;text-align:right}
+ .casa-nav{display:none}.casa-mobile-nav{position:fixed;z-index:45;bottom:0;left:0;right:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));padding:6px 8px calc(6px + env(safe-area-inset-bottom,0px));background:#f5f1e9fa;border-top:1px solid #cbd1c4;box-shadow:0 -4px 24px #26332708;font:14px/1.2 Arial,sans-serif}
+ .casa-mobile-nav a{display:flex;flex-direction:column;gap:5px;align-items:center;justify-content:center;color:var(--casa-muted);min-height:55px;text-decoration:none;border-radius:5px}.casa-mobile-nav a[aria-current=page]{background:var(--casa-ink);color:white}
+ .home-page,.room-page{padding-bottom:calc(80px + env(safe-area-inset-bottom,0px))}.home-main{padding:29px 20px 25px}.home-heading{display:block;margin-bottom:24px}.home-heading h1{font-size:39px;letter-spacing:-1.2px}.home-heading p:last-child{font-size:14px;max-width:300px;margin-top:12px}.home-kicker{font-size:12px;margin-bottom:8px}
+ .room-grid{grid-template-columns:1fr;gap:14px}.room-card{display:grid;grid-template-columns:38% minmax(0,1fr);background:#eeeee4;border:1px solid var(--casa-line);border-radius:5px;overflow:hidden;min-height:154px}
+ .room-cover{aspect-ratio:auto;min-height:154px;height:100%;border-radius:0}.room-text{padding:22px 15px;border:0;align-self:center}.room-text h2{font-size:28px;margin-bottom:10px}.room-text p{font-size:14px;line-height:1.5}.room-number{width:27px;height:27px;left:10px;top:10px;font-size:12px}.room-enter{width:31px;height:31px;right:9px;bottom:9px;font-size:22px}.home-footer{font-size:12px;padding:0 20px 20px;display:block}.home-footer p+p{margin-top:5px}
+ .room-page main{padding:25px 18px;min-width:0}.room-page h1{font-size:clamp(30px,8.5vw,39px);overflow-wrap:break-word}.room-page .nav,.room-page .views{flex-wrap:nowrap;overflow-x:auto;max-width:100%;padding:5px 3px 12px;gap:7px;scroll-snap-type:x proximity;scrollbar-width:thin}.room-page .nav>*,.room-page .views>*{flex:0 0 auto;scroll-snap-align:start}.room-page .modes{gap:7px}.room-page .modes button{font-size:14px;padding:10px 13px}.room-page .caption-row{flex-wrap:wrap}.room-page .thumb{flex-basis:170px}.room-page .thumb span{display:block}.room-page .thumb small{display:none}.room-page .measures strong{font-size:23px}.room-page .footer p{font-size:13px}.room-page .zoom-image{height:calc(85dvh - 140px)}.room-page dialog{max-height:90dvh}
+}
+@media(max-width:360px){.room-text{padding:16px 11px}.room-text h2{font-size:25px}.room-text p{font-size:14px}.home-heading h1{font-size:35px}.casa-header-note{font-size:12px;max-width:98px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+@media print{.casa-header,.casa-mobile-nav,.casa-skip{display:none!important}.home-page,.room-page{padding-bottom:0}.room-grid{display:block}.room-card{break-inside:avoid}}

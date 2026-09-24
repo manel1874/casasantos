@@ -1,0 +1,27 @@
+[
+  {
+    "option": 1,
+    "source": "exec-5430fe04-ac36-48bc-8fa2-910c8a1ac66a.png",
+    "output": "Casa Santos/sala/output/propostas-v1/ambiente-01.webp"
+  },
+  {
+    "option": 2,
+    "source": "exec-4f731bd8-97f3-4ebb-b135-8eb19349a694.png",
+    "output": "Casa Santos/sala/output/propostas-v1/ambiente-02.webp"
+  },
+  {
+    "option": 3,
+    "source": "exec-d66aa178-606c-4159-95a5-0c3c5192b51f.png",
+    "output": "Casa Santos/sala/output/propostas-v1/ambiente-03.webp"
+  },
+  {
+    "option": 4,
+    "source": "exec-751bbf69-1ead-4ab2-b213-4e8e33565da8.png",
+    "output": "Casa Santos/sala/output/propostas-v1/ambiente-04.webp"
+  },
+  {
+    "option": 5,
+    "source": "exec-6e3e6791-9141-4a88-bf82-78d24db90266.png",
+    "output": "Casa Santos/sala/output/propostas-v1/ambiente-05.webp"
+  }
+]

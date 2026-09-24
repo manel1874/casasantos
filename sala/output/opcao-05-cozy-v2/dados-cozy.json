@@ -1,0 +1,169 @@
+{
+  "option": {
+    "id": 5,
+    "name": "Cinema para o fundo · Cozy",
+    "tag": "Alternativa com o eixo rodado",
+    "wall": "B",
+    "screen": 2.2,
+    "axis": 4.1,
+    "p": [
+      4.1,
+      0.9
+    ],
+    "eye": [
+      4.1,
+      1.7
+    ],
+    "seats": "3 lugares frontais + 2 poltronas móveis",
+    "route": "Faixa esquerda ampla; 1,15 m entre sofá e fachada",
+    "note": "O sofá de 260 cm fica paralelo à fachada e olha para o pano à direita de P7. A zona social desloca-se para a metade direita; as ligações às outras divisões ficam à esquerda.",
+    "trade": "O pano do fundo não aparece claramente nas fotografias. Esta opção depende de confirmar que está livre e plano. É a que mais altera a posição do projetor e da luz principal.",
+    "rug": [
+      2.35,
+      0.98,
+      3.02,
+      3.55
+    ],
+    "furniture": [
+      {
+        "kind": "sofa",
+        "x": 2.8,
+        "y": 1.15,
+        "w": 2.6,
+        "h": 0.95,
+        "face": "N",
+        "label": "Sofá 260"
+      },
+      {
+        "kind": "chair",
+        "x": 2.65,
+        "y": 3.7,
+        "w": 0.78,
+        "h": 0.78,
+        "face": "S",
+        "label": ""
+      },
+      {
+        "kind": "chair",
+        "x": 4.08,
+        "y": 3.7,
+        "w": 0.8,
+        "h": 0.78,
+        "face": "S",
+        "label": ""
+      },
+      {
+        "kind": "shelf",
+        "x": 0,
+        "y": 2.95,
+        "w": 0.34,
+        "h": 1.65,
+        "face": "E",
+        "label": "Móvel sob nicho"
+      },
+      {
+        "kind": "console",
+        "x": 3.0,
+        "y": 4.65,
+        "w": 2.2,
+        "h": 0.365,
+        "face": "E",
+        "label": "Móvel baixo"
+      },
+      {
+        "kind": "shelf",
+        "x": 5.34,
+        "y": 2.4,
+        "w": 0.3,
+        "h": 2.0,
+        "face": "E",
+        "label": "Estante"
+      },
+      {
+        "kind": "shelf",
+        "x": 2.16,
+        "y": 1.25,
+        "w": 0.46,
+        "h": 0.46,
+        "face": "E",
+        "label": "Apoio"
+      }
+    ],
+    "portable": [
+      2.39,
+      1.48
+    ],
+    "extra": "Alimentação do projetor perto da fachada; canalização até ao móvel do fundo.",
+    "lights": [
+      {
+        "id": "G1",
+        "x": 2.05,
+        "y": 1.0,
+        "type": "Teto",
+        "c": "C1",
+        "desc": "Plafon opalino; ambiente junto à fachada"
+      },
+      {
+        "id": "G2",
+        "x": 2.05,
+        "y": 4.1,
+        "type": "Teto",
+        "c": "C1",
+        "desc": "Plafon opalino; ambiente junto ao fundo"
+      },
+      {
+        "id": "A1",
+        "x": 0,
+        "y": 4.55,
+        "type": "Parede",
+        "c": "C2",
+        "desc": "Aplique lateral ao nicho; h proposta 1,80 m"
+      },
+      {
+        "id": "N1",
+        "x": 0,
+        "y": 3.5,
+        "type": "Nicho",
+        "c": "C3",
+        "desc": "Luz indireta no nicho; fonte oculta"
+      },
+      {
+        "id": "E1",
+        "x": 5.64,
+        "y": 3.4,
+        "type": "Estante",
+        "c": "C2",
+        "desc": "Luz quente oculta nas prateleiras; regulável e desligável no cinema"
+      }
+    ],
+    "distance": 4.11,
+    "view": 3.31,
+    "inch": 99,
+    "ratio": 1.87
+  },
+  "plants": [
+    {
+      "x": 0.32,
+      "y": 0.53,
+      "r": 0.22,
+      "label": "P1"
+    },
+    {
+      "x": 3.35,
+      "y": 0.38,
+      "r": 0.22,
+      "label": "P2"
+    }
+  ],
+  "coffee": {
+    "x": 4.1,
+    "y": 2.9,
+    "diameter": 0.9
+  },
+  "notes": [
+    "Dimensões conceptuais, a confirmar.",
+    "Faixa de passagem de 90 cm livre de móveis e vasos no esquema.",
+    "As folhas das plantas devem ser conduzidas fora da passagem.",
+    "A estante tem 30 cm de profundidade e 2,00 m de comprimento propostos."
+  ]
+}

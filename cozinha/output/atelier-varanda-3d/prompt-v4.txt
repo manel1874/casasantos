@@ -1,0 +1,19 @@
+Make ONE precise furniture correction to this approved architectural 3D cutaway render.
+
+The user does NOT want the little isolated kitchen pantry currently shown with an open white door. REPLACE THAT SMALL PANTRY completely with ONE CONTINUOUS FULL-HEIGHT CUPBOARD RUN on the KITCHEN SIDE of the longitudinal divider between kitchen and ironing atelier.
+
+EXTENT IS THE MOST IMPORTANT REQUIREMENT:
+- BACK END: start exactly at the corner where the back leg of the L-shaped kitchen worktop meets the atelier divider, with the tall cabinet neatly abutting that worktop corner.
+- FRONT END: extend all the way to the FRONT LIMIT of the ironing atelier, flush with the plane of its full-height oak frontage / concealed passage door.
+- Fill the ENTIRE intervening length of the divider, approximately 2.3-2.5 metres: no short isolated cupboard, no bare section at either end, no gap before the atelier front.
+- The new cupboard's FLOOR-LEVEL front/end must align with the FLOOR-LEVEL front edge of the atelier's oak frontage (the bottom of the oak front in the image), not stop halfway down the room. Its TOP-LEVEL front/end must likewise align with the top of that same frontage. Render its full perspective correctly.
+- It is a tall floor-standing cabinet from recessed plinth to about 2.2-2.35 m, with a consistent rectangular top, tangible storage depth of about 35-40 cm, and four or five repeated tall closed door panels along its full length.
+
+APPEARANCE AND DIRECTION:
+Make it the matching, reversed counterpart of the cabinetry INSIDE the ironing atelier: same restrained style, flat matte MUTED SAGE-GREEN doors, light natural OAK carcass/top/ends, same simple slim handles or discreet recessed pulls and plinth detailing. The existing sage storage inside the atelier is the finish reference. This is back-to-back storage: existing interior furniture remains oriented into the ironing room; the NEW full-length cabinet faces OUT into the KITCHEN toward the island. All of its kitchen-side cupboard doors must be visible along the long side facing right and CLOSED, so it reads as one continuous tall fitted bank. Remove the previously open small white pantry door and exposed shelves. No appliances in this new run. It is a genuine deep storage unit with carcass and doors, not simply colouring the partition or adding a thin panel.
+
+PRESERVE EVERYTHING ELSE:
+Keep the continuous long rear window replacing J12/J11, the full L-shaped stone kitchen counter, the right-hand sink/hob run, compact island, all masonry and balcony glazing, the single laundry stack outside on the left balcony, the atelier interior and separate J13 balcony access, the foreground technical/fridge/oven bank, and the existing full-height OAK FRONT with its CLOSED CONCEALED ROOM-ACCESS DOOR. Do not turn the front concealed door green or replace it with a cupboard. Only the kitchen-facing long side gets this matching full-length sage-and-oak storage.
+Keep the apartment footprint and realistic proportions; don't enlarge the room or island. Keep circulation plausible; the island may shift minimally rightwards if absolutely necessary, but otherwise retain its location.
+Use the SAME high oblique architectural cutaway camera and lighting, show the entire room. Photorealistic fine textures, warm natural light, no people, no text, no arrows, no dimensions, no collage.
+The completed image must unambiguously show a SINGLE TALL STORAGE BANK running continuously FROM THE COUNTERTOP CORNER TO THE ATELIER'S FRONT EDGE, with the cupboard fronts facing the kitchen.

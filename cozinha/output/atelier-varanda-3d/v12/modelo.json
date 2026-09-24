@@ -1,0 +1,336 @@
+{
+  "units": "m",
+  "source": "planta-nova.webp",
+  "revision": "V12",
+  "source_dimensions": {
+    "interior_width": 5.135,
+    "width_chain": [
+      2.54,
+      2.595
+    ],
+    "right_worktop_length": 3.11,
+    "left_run_length": 3.66,
+    "appliance_bank_width": 2.09,
+    "original_island": [
+      1.2,
+      1.8
+    ],
+    "original_side_clearance_rounded": 1.37,
+    "base_cabinet_depth": 0.6
+  },
+  "inferred": {
+    "rear_balcony_depth": 1.04,
+    "balcony_return_width": 1.1,
+    "WC_front_y": 4.7,
+    "door_positions": "leitura gráfica do raster; não cotadas"
+  },
+  "main_floor": [
+    [
+      0,
+      0
+    ],
+    [
+      5.135,
+      0
+    ],
+    [
+      5.135,
+      3.11
+    ],
+    [
+      4.335,
+      3.11
+    ],
+    [
+      4.335,
+      3.61
+    ],
+    [
+      5.135,
+      3.61
+    ],
+    [
+      5.135,
+      4.85
+    ],
+    [
+      4.335,
+      4.85
+    ],
+    [
+      4.335,
+      5.0
+    ],
+    [
+      3.465,
+      5.0
+    ],
+    [
+      3.465,
+      4.7
+    ],
+    [
+      1.275,
+      4.7
+    ],
+    [
+      1.275,
+      5.35
+    ],
+    [
+      0,
+      5.35
+    ]
+  ],
+  "balcony_floor": [
+    [
+      -1.35,
+      -1.45
+    ],
+    [
+      5.435,
+      -1.45
+    ],
+    [
+      5.435,
+      -0.41
+    ],
+    [
+      -0.25,
+      -0.41
+    ],
+    [
+      -0.25,
+      1.2
+    ],
+    [
+      -1.35,
+      1.2
+    ]
+  ],
+  "laundry": {
+    "x": 0,
+    "z": 0,
+    "w": 1.35,
+    "d": 1.85,
+    "partition": 0.1,
+    "partition_material": "pladur branco",
+    "entry_width": 0.9,
+    "entry_height": 2.1,
+    "partition_height": 2.4,
+    "area": 2.4975,
+    "counter": {
+      "x": 0,
+      "z": 0.85,
+      "w": 0.45,
+      "d": 1.0
+    },
+    "aisle": 0.9,
+    "door_landing": 0.85
+  },
+  "island": {
+    "x": 2.435,
+    "z": 1.65,
+    "w": 0.9,
+    "d": 1.4,
+    "h": 0.9,
+    "overhang": 0.2
+  },
+  "right_counter": {
+    "x": 4.535,
+    "z": 0,
+    "w": 0.6,
+    "d": 3.11,
+    "h": 0.9
+  },
+  "rear_counter": {
+    "x": 1.45,
+    "z": 0,
+    "w": 3.085,
+    "d": 0.6,
+    "h": 0.9
+  },
+  "cold_bank": {
+    "x": 1.275,
+    "z": 3.95,
+    "w": 2.09,
+    "d": 0.75,
+    "fridge_envelope": 0.95,
+    "pantry_width": 1.08,
+    "front_plane": 3.985,
+    "handle_front_plane": 3.95,
+    "pantry_depth": 0.715
+  },
+  "heater": {
+    "x": 0,
+    "z": 2.5,
+    "w": 0.7,
+    "d": 0.65,
+    "h": 2.25
+  },
+  "linen": {
+    "x": 0,
+    "z": 3.15,
+    "w": 0.7,
+    "d": 0.51,
+    "h": 2.25
+  },
+  "storage_run": {
+    "x": 0,
+    "z": 2.15,
+    "w": 0.7,
+    "d": 1.51,
+    "h": 2.25,
+    "end": 3.66,
+    "note": "Frente única alinhada pelo módulo técnico; termina antes da área de abertura e acesso à porta."
+  },
+  "machines": {
+    "x": -0.95,
+    "z": 0.45,
+    "w": 0.7,
+    "d": 0.75,
+    "h": 1.95,
+    "front": "toward negative z / long balcony",
+    "status": "envelope proposto; validar vão e apoio no topo do retorno"
+  },
+  "cleaning": {
+    "x": -1.3,
+    "z": 0.75,
+    "w": 0.3,
+    "d": 0.45,
+    "h": 1.9
+  },
+  "clearances": {
+    "island_to_right_counter": 1.2,
+    "island_to_rear_counter": 1.05,
+    "island_to_fridge_closed": 0.9,
+    "island_to_laundry_partition": 0.985,
+    "laundry_internal_aisle": 0.9,
+    "island_to_wall_shelf_edge_at_height": 0.835
+  },
+  "notes": [
+    "Folgas calculadas com portas e gavetas fechadas.",
+    "Banquetas no lado oposto à frente de trabalho; tábua compacta recolhível.",
+    "Resguardo em pladur de 10 cm com entrada aberta de 90 cm; mantém-se a remoção proposta do pano curto assinalado, sujeita à identificação estrutural.",
+    "A largura da varanda e as posições de portas sem cotas são estimadas a partir do raster.",
+    "Modelos dos eletrodomésticos por escolher; envelopes não equivalem a folgas de instalação validadas.",
+    "Prateleiras do pladur: folga horizontal de 83,5 cm até à ilha à altura das prateleiras; bancos fora do seu comprimento. Fixação a reforço interior a dimensionar."
+  ],
+  "upper_cabinets": {
+    "x": 4.785,
+    "w": 0.35,
+    "bottom": 1.55,
+    "h": 0.75,
+    "segments": [
+      [
+        0.45,
+        1.67
+      ],
+      [
+        2.74,
+        0.37
+      ]
+    ],
+    "hood_gap": [
+      2.12,
+      2.74
+    ]
+  },
+  "island_shelves": {
+    "x": 3.035,
+    "z": 1.668,
+    "w": 0.3,
+    "d": 1.364,
+    "levels": [
+      0.14,
+      0.4,
+      0.66
+    ],
+    "side": "oposto às cadeiras; dentro da ilha"
+  },
+  "wine_rack": {
+    "x": 0.35,
+    "z": 2.15,
+    "w": 0.35,
+    "d": 0.35,
+    "h": 2.25,
+    "reference": "garrafeira.webp",
+    "type": "nicho aberto com diagonais",
+    "note": "Sem refrigeração; capacidade depende das garrafas."
+  },
+  "wall_shelves": {
+    "x": 1.45,
+    "z": 0.6,
+    "w": 0.15,
+    "d": 1.2,
+    "levels": [
+      1.35,
+      1.7,
+      2.05
+    ],
+    "thickness": 0.025,
+    "support": "reforço interior do pladur a definir"
+  },
+  "styles": [
+    {
+      "id": "natural",
+      "name": "Natural contemporâneo",
+      "description": "Verde sálvia, carvalho natural e pedra creme. Continuidade com o ambiente atual.",
+      "cabinet": "#9baf97",
+      "wood": "#c4a275",
+      "stone": "#e5d8c4",
+      "floor": "#e8dfce",
+      "metal": "#b6bfc1",
+      "back": "#e5d8c4",
+      "shaker": false
+    },
+    {
+      "id": "japandi",
+      "name": "Japandi",
+      "description": "Frentes areia, madeira clara, pedra marfim e poucos objetos. Um conjunto sereno e depurado.",
+      "cabinet": "#d1c7b7",
+      "wood": "#d4bf99",
+      "stone": "#eee9de",
+      "floor": "#ded6c6",
+      "metal": "#9b968a",
+      "back": "#e4ddd0",
+      "shaker": false
+    },
+    {
+      "id": "mediterranico",
+      "name": "Mediterrânico",
+      "description": "Barro suave, branco quente, carvalho lavado e apontamentos de cerâmica artesanal.",
+      "cabinet": "#ba8063",
+      "wood": "#c7ae87",
+      "stone": "#eee5d5",
+      "floor": "#d8c6af",
+      "metal": "#a38d70",
+      "back": "#f1e7d4",
+      "shaker": false
+    },
+    {
+      "id": "classico",
+      "name": "Clássico contemporâneo",
+      "description": "Azul profundo, portas com moldura discreta, pedra clara e puxadores em latão.",
+      "cabinet": "#405967",
+      "wood": "#b99769",
+      "stone": "#ece8df",
+      "floor": "#e0d5c5",
+      "metal": "#b99a52",
+      "back": "#ece8df",
+      "shaker": true
+    },
+    {
+      "id": "urbano",
+      "name": "Urbano com nogueira",
+      "description": "Grafite, nogueira, pedra cinzenta clara e metal escuro, com textura quente da madeira.",
+      "cabinet": "#4e5351",
+      "wood": "#816049",
+      "stone": "#c6c5bc",
+      "floor": "#cbc6ba",
+      "metal": "#454b4a",
+      "back": "#c6c5bc",
+      "shaker": false
+    }
+  ]
+}

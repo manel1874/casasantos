@@ -1,0 +1,66 @@
+[
+  {
+    "id": "01",
+    "name": "Cozy · galeria iluminada",
+    "wall": "Quadro de paisagem de 150 × 90 cm, sobre uma faixa verde suave de 180 cm, com aplique de quadro.",
+    "colors": "Areia, verde-azeitona e madeira quente.",
+    "depth": 0.055,
+    "benefit": "Mantém a ligação à sala. A faixa de cor e o aplique dão mais presença ao quadro, sem acrescentar mobiliário.",
+    "detail": "Quadro centrado a 1,62 m de altura; faixa de cor aplicada na parede.",
+    "file": "ambiente-01.webp"
+  },
+  {
+    "id": "02",
+    "name": "Biblioteca · móvel de arrumação",
+    "wall": "Móvel de 160 × 32 × 215 cm, com base fechada, coluna lateral e nichos para livros e objetos.",
+    "colors": "Carvalho, verde musgo e linho.",
+    "depth": 0.32,
+    "footprint": {
+      "x": 0.855,
+      "z": 0,
+      "w": 1.6,
+      "d": 0.32,
+      "h": 2.15
+    },
+    "benefit": "É a opção com mais arrumação: base fechada para materiais e uma pequena biblioteca na parte superior.",
+    "detail": "O móvel fica no centro da parede, com 32 cm de profundidade e afastado do arco estimado de P9.",
+    "file": "ambiente-02.webp"
+  },
+  {
+    "id": "03",
+    "name": "Sala de ideias · quadro branco",
+    "wall": "Quadro branco de escrita de 180 × 120 cm, com tabuleiro para marcadores e superfície magnética.",
+    "colors": "Branco quente, madeira e verde suave.",
+    "depth": 0.06,
+    "benefit": "Uma parede para explicar, planear e trabalhar em conjunto. Quadro branco convencional de sala de aula, com bastante superfície livre.",
+    "detail": "Quadro entre 80 e 200 cm do chão; tabuleiro inferior para marcadores e apagador.",
+    "file": "ambiente-03.webp"
+  },
+  {
+    "id": "04",
+    "name": "Atelier · mural e cortiça",
+    "wall": "Mural geométrico em terracota e areia, com painel circular de cortiça de 100 cm para referências.",
+    "colors": "Terracota, cortiça, areia e verde-azeitona.",
+    "depth": 0.025,
+    "benefit": "A parede funciona como uma composição gráfica e um painel de trabalho que pode mudar com novos projetos.",
+    "detail": "Mural pintado no plano da parede; painel de cortiça com centro a 1,55 m.",
+    "file": "ambiente-04.webp"
+  },
+  {
+    "id": "05",
+    "name": "Pausa · banco com arrumação",
+    "wall": "Banco de 160 × 40 × 46 cm com arrumação fechada e painel estofado em arco na parede.",
+    "colors": "Carvalho, verde-azeitona e linho.",
+    "depth": 0.4,
+    "footprint": {
+      "x": 0.855,
+      "z": 0,
+      "w": 1.6,
+      "d": 0.4,
+      "h": 0.46
+    },
+    "benefit": "Cria um pequeno lugar para uma pausa, com arrumação debaixo do assento. Os cinco lugares de trabalho mantêm-se.",
+    "detail": "Banco destinado a pausas curtas; verificar o acesso com a primeira cadeira em uso. Painel aplicado, sem alterar a parede.",
+    "file": "ambiente-05.webp"
+  }
+]

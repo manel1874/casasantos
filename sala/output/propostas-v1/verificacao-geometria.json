@@ -1,0 +1,34 @@
+[
+  {
+    "option": 1,
+    "furniture_in_bounds": true,
+    "passage_90cm_clear_of_furniture": true,
+    "intentional_overlaps": []
+  },
+  {
+    "option": 2,
+    "furniture_in_bounds": true,
+    "passage_90cm_clear_of_furniture": true,
+    "intentional_overlaps": []
+  },
+  {
+    "option": 3,
+    "furniture_in_bounds": true,
+    "passage_90cm_clear_of_furniture": true,
+    "intentional_overlaps": [
+      "Mesas de encaixe"
+    ]
+  },
+  {
+    "option": 4,
+    "furniture_in_bounds": true,
+    "passage_90cm_clear_of_furniture": true,
+    "intentional_overlaps": []
+  },
+  {
+    "option": 5,
+    "furniture_in_bounds": true,
+    "passage_90cm_clear_of_furniture": true,
+    "intentional_overlaps": []
+  }
+]

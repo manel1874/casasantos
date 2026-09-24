@@ -1,0 +1,206 @@
+{
+  "option": {
+    "id": 5,
+    "name": "Cinema para o fundo · Sofá de linhas direitas, biblioteca e aparador",
+    "tag": "Alternativa com o eixo rodado",
+    "wall": "B",
+    "screen": 2.2,
+    "axis": 4.1,
+    "p": [
+      4.1,
+      0.9
+    ],
+    "eye": [
+      3.65,
+      2.05
+    ],
+    "seats": "Sofá em L + uma poltrona",
+    "route": "90 cm à esquerda; 65 cm junto à estante; 1,20 m do aparador à fachada",
+    "note": "Sofá menos volumoso, estante lateral ampliada e aparador estreito atrás do sofá.",
+    "trade": "O acesso à estante tem 65 cm no estudo e serve para alcançar os livros; a circulação principal continua à esquerda.",
+    "rug": [
+      1.9,
+      1.11,
+      2.92,
+      3.55
+    ],
+    "furniture": [
+      {
+        "kind": "sofa",
+        "x": 1.95,
+        "y": 1.6,
+        "w": 2.7,
+        "h": 0.85,
+        "face": "N",
+        "label": "Sofá em L"
+      },
+      {
+        "kind": "chaise",
+        "x": 3.8,
+        "y": 2.45,
+        "w": 0.85,
+        "h": 1.1,
+        "face": "W",
+        "label": "Retorno"
+      },
+      {
+        "kind": "chair",
+        "x": 2.05,
+        "y": 3.88,
+        "w": 0.78,
+        "h": 0.78,
+        "face": "S",
+        "label": ""
+      },
+      {
+        "kind": "shelf",
+        "x": 0,
+        "y": 2.95,
+        "w": 0.34,
+        "h": 1.65,
+        "face": "E",
+        "label": "Nicho"
+      },
+      {
+        "kind": "console",
+        "x": 3.0,
+        "y": 4.65,
+        "w": 2.2,
+        "h": 0.365,
+        "face": "E",
+        "label": "Móvel baixo"
+      },
+      {
+        "kind": "shelf",
+        "x": 5.3,
+        "y": 1.85,
+        "w": 0.34,
+        "h": 3.0,
+        "face": "E",
+        "label": ""
+      },
+      {
+        "kind": "console",
+        "x": 2.15,
+        "y": 1.2,
+        "w": 2.3,
+        "h": 0.35,
+        "face": "E",
+        "label": "Aparador 230"
+      }
+    ],
+    "portable": [
+      2.4,
+      1.375
+    ],
+    "extra": "Candeeiro e pequena planta sobre o aparador; projetor de teto na posição horizontal de estudo.",
+    "lights": [
+      {
+        "id": "G1",
+        "x": 2.05,
+        "y": 1.0,
+        "type": "Teto",
+        "c": "C1",
+        "desc": "Plafon opalino; ambiente junto à fachada"
+      },
+      {
+        "id": "G2",
+        "x": 2.05,
+        "y": 4.1,
+        "type": "Teto",
+        "c": "C1",
+        "desc": "Plafon opalino; ambiente junto ao fundo"
+      },
+      {
+        "id": "A1",
+        "x": 0,
+        "y": 4.55,
+        "type": "Parede",
+        "c": "C2",
+        "desc": "Aplique lateral ao nicho; h proposta 1,80 m"
+      },
+      {
+        "id": "N1",
+        "x": 0,
+        "y": 3.5,
+        "type": "Nicho",
+        "c": "C3",
+        "desc": "Luz indireta no nicho; fonte oculta"
+      },
+      {
+        "id": "E1",
+        "x": 5.64,
+        "y": 3.35,
+        "type": "Estante",
+        "c": "C2",
+        "desc": "Alimentação para luz integrada na estante de 3 m; comando independente e regulável."
+      }
+    ],
+    "distance": 4.11,
+    "view": 2.96,
+    "inch": 99,
+    "ratio": 1.87
+  },
+  "plants": [
+    {
+      "x": 0.32,
+      "y": 0.53,
+      "r": 0.22,
+      "label": "P1",
+      "support": "floor"
+    },
+    {
+      "x": 4.18,
+      "y": 1.375,
+      "r": 0.1,
+      "label": "P2",
+      "support": "sideboard"
+    }
+  ],
+  "coffee": {
+    "x": 2.97,
+    "y": 3.15,
+    "diameter": 0.7
+  },
+  "route": {
+    "x": 1.0,
+    "y": 0.35,
+    "w": 0.9,
+    "h": 4.45
+  },
+  "sofa_overall": {
+    "width": 2.7,
+    "depth": 1.95
+  },
+  "bookcase": {
+    "length": 3.0,
+    "depth": 0.34,
+    "height": 2.2
+  },
+  "sideboard": {
+    "length": 2.3,
+    "depth": 0.35,
+    "height": 0.7
+  },
+  "clearances": {
+    "left_main": 0.9,
+    "right_shelf_access": 0.65,
+    "sideboard_to_facade": 1.2,
+    "sideboard_to_grille_min": 0.98
+  },
+  "notes": [
+    "Cotas de estudo, a confirmar no local.",
+    "P2 fica sobre o aparador; não ocupa a faixa de passagem no chão.",
+    "O projetor é uma reserva horizontal no teto, não um aparelho em cima do aparador.",
+    "A altura de montagem e a distância de projeção dependem do equipamento escolhido.",
+    "As imagens são conceptuais; as medidas pertencem à planta."
+  ],
+  "armchair_style": "Verde-azeitona, braços finos retos, almofadas firmes, pés de madeira; mesma implantação de estudo.",
+  "artwork": {
+    "type": "Paisagem abstrata",
+    "proposed_width": 1.5,
+    "proposed_height": 0.9,
+    "frame": "Madeira fina",
+    "use": "Retirar e guardar noutra divisão antes do filme"
+  }
+}

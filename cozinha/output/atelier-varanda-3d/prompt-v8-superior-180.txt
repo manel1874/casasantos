@@ -1,0 +1,21 @@
+Use case: stylized-concept.
+Asset type: NEW 3D OVERHEAD CUTAWAY VIEW of the SAME layout as input1, with CAMERA AZIMUTH ROTATED EXACTLY 180 DEGREES around the room compared to input1. Input1 is authoritative geometry, input2 is refrigerator-front detail only.
+This is NOT a simple upside-down raster and NOT a mirror image. Re-render from high above the OPPOSITE side, looking from above the REAR BALCONY toward the MAIN ENTRANCES. Camera elevation about70 degrees, slightly orthographic architect's dollhouse, no ceiling. Objects stay upright in 3D. All walls, doorways, equipment and footprint retain exact plan positions.
+
+VERY IMPORTANT SCREEN MAPPING AFTER 180-DEGREE ORBIT:
+- The kitchen which is RIGHT in input1 is now on LEFT half of output.
+- The ironing room which is LEFT in input1 is now on RIGHT half.
+- The long rear glazed balcony which is across TOP of input1 is now across BOTTOM/FOREGROUND, with its short return running up the OUTERMOST RIGHT edge.
+- The small WC volume which is at BOTTOM CENTER of input1 is now at TOP CENTER of output, beyond the appliance bank.
+- The main entry originally bottom-left is at TOP RIGHT; the closed kitchen entry originally bottom-right is at TOP LEFT.
+
+Precise furniture arrangement in this rotated view:
+1. Main L kitchen stone worktop runs across LOWER-LEFT beneath ribbon window and up the OUTER LEFT wall. Sink on left wall nearer balcony/bottom; induction hob farther toward upper-left.
+2. Oak island with pale top is LEFT OF CENTER, its long axis running bottom-to-top. Exactly two high chairs now on its RIGHT long edge (the edge near the divider), stone overhang20cm there.
+3. One long full-height divider occupies CENTER-RIGHT with cabinet doors facing LEFT into kitchen; plain back faces RIGHT into ironing room. The divider starts near the lower balcony wall and extends toward the middle/upper room, leaving OPEN access around its far/top tip.
+4. Ironing room lies RIGHT of divider. Ironing board immediately next to divider back on the LEFT side of that ironing room, runner centrally, storage on RIGHT perimeter wall. Along that right wall, closest to balcony/bottom is a clear empty landing for glazed inward-opening door; then four equal low base-door modules with pale worktop and two open oak shelves; then a visibly DEEPER full-height closed sage boiler cupboard projecting into room as a single stepped box; remainder ordinary shallow tall cupboards continues toward main entry top-right. Preserve approx85cm clear landing and show glazed door opening inward into ironing room, not into balcony. No utility sink.
+5. Washer/dryer tower remains INSIDE rightmost exterior balcony return. It was rotated180 degrees in input1 so its machine FRONT DOORS face toward the long bottom balcony in THIS rotated view; we can now see the two stacked circular appliance fronts. Enclose it in full-height oak/sage cupboard, doors partly open to show correct orientation. Cupboard back toward far/top end of return.
+6. Appliances in the FAR/TOP center bank in front of WC wall face DOWN toward island/camera. From LEFT TO RIGHT on screen: NARROW TALL COMBINED fridge-freezer (one upper fridge door, one lower freezer door); WIDE AMERICAN fridge with exactly two full-height side-by-side vertical doors; remaining sage cupboard. Copy their brushed steel fronts from input2. There is no chest freezer. Keep their correct scale and original spacing.
+7. Kitchen entry at upper-left CLOSED with light oak door, main entry at upper-right as reference. No new rooms or extra furniture.
+
+Remove/cut down only camera-facing foreground outer balcony walls enough to see inside; keep full footprint readable. Pale stone tile floor, sage cabinets, natural oak, pale quartz, soft daylight. High-end photorealistic architectural cutaway. No dimension labels, no arrows, no text.

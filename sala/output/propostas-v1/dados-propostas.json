@@ -1,0 +1,635 @@
+{
+  "room": {
+    "width": 5.64,
+    "depth": 5.015,
+    "area_model": 28.28,
+    "area_plan": "cerca de 29,8 m² (leitura provável)",
+    "openings": "inferidos do raster"
+  },
+  "options": [
+    {
+      "id": 1,
+      "name": "Equilíbrio e conversa",
+      "tag": "A minha escolha para começar",
+      "wall": "A",
+      "screen": 2.4,
+      "axis": 2.5,
+      "p": [
+        1.4,
+        2.5
+      ],
+      "eye": [
+        1.85,
+        2.5
+      ],
+      "seats": "3 lugares de cinema + 2 poltronas",
+      "route": "1,30 m atrás do sofá; 1,17 m no fundo",
+      "note": "A combinação mais equilibrada: sofá de 260 cm, duas poltronas leves e uma biblioteca baixa no fundo. O eixo de entrada fica livre e a parede de projeção mantém-se limpa.",
+      "trade": "As poltronas servem sobretudo conversa e leitura; podem rodar para o filme. O sofá flutuante pede alimentação próxima para um candeeiro.",
+      "rug": [
+        1.2,
+        0.95,
+        3.85,
+        3.1
+      ],
+      "furniture": [
+        {
+          "kind": "sofa",
+          "x": 1.3,
+          "y": 1.25,
+          "w": 0.95,
+          "h": 2.6,
+          "face": "E",
+          "label": "Sofá 260"
+        },
+        {
+          "kind": "coffee",
+          "x": 2.85,
+          "y": 2.08,
+          "w": 1.05,
+          "h": 0.75,
+          "face": "E",
+          "label": "Mesa"
+        },
+        {
+          "kind": "chair",
+          "x": 3.55,
+          "y": 0.48,
+          "w": 0.78,
+          "h": 0.78,
+          "face": "N",
+          "label": ""
+        },
+        {
+          "kind": "chair",
+          "x": 4.05,
+          "y": 3.72,
+          "w": 0.8,
+          "h": 0.8,
+          "face": "S",
+          "label": ""
+        },
+        {
+          "kind": "shelf",
+          "x": 3.15,
+          "y": 4.7,
+          "w": 2.49,
+          "h": 0.315,
+          "face": "E",
+          "label": "Biblioteca baixa"
+        },
+        {
+          "kind": "console",
+          "x": 5.28,
+          "y": 1.3,
+          "w": 0.36,
+          "h": 2.4,
+          "face": "E",
+          "label": "Móvel baixo"
+        }
+      ],
+      "portable": [
+        1.1,
+        3.5
+      ],
+      "extra": "Tomada de apoio junto ao sofá, com percurso sem cabo na passagem.",
+      "lights": [
+        {
+          "id": "G1",
+          "x": 2.8,
+          "y": 1.0,
+          "type": "Teto",
+          "c": "C1",
+          "desc": "Plafon opalino; ambiente junto à fachada"
+        },
+        {
+          "id": "G2",
+          "x": 2.8,
+          "y": 4.1,
+          "type": "Teto",
+          "c": "C1",
+          "desc": "Plafon opalino; ambiente junto ao fundo"
+        },
+        {
+          "id": "A1",
+          "x": 0,
+          "y": 4.55,
+          "type": "Parede",
+          "c": "C2",
+          "desc": "Aplique lateral ao nicho; h proposta 1,80 m"
+        },
+        {
+          "id": "N1",
+          "x": 0,
+          "y": 3.5,
+          "type": "Nicho",
+          "c": "C3",
+          "desc": "Luz indireta no nicho; fonte oculta"
+        }
+      ],
+      "distance": 4.24,
+      "view": 3.79,
+      "inch": 108,
+      "ratio": 1.77
+    },
+    {
+      "id": 2,
+      "name": "Cinema com chaise-longue",
+      "tag": "Mais conforto para filmes",
+      "wall": "A",
+      "screen": 2.4,
+      "axis": 2.5,
+      "p": [
+        1.4,
+        2.5
+      ],
+      "eye": [
+        1.9,
+        2.5
+      ],
+      "seats": "3-4 lugares no sofá + 1 poltrona",
+      "route": "1,30 m atrás do sofá; 1,12 m no fundo",
+      "note": "Sofá de 280 cm com chaise na extremidade do fundo. A extensão fica longe do acesso à varanda. Uma poltrona de palhinha completa o conjunto e o centro continua legível.",
+      "trade": "A chaise ocupa mais área e torna a disposição menos flexível. Usar mesa de centro pequena e móvel baixo com pouca profundidade.",
+      "rug": [
+        1.22,
+        0.9,
+        3.75,
+        3.15
+      ],
+      "furniture": [
+        {
+          "kind": "sofa",
+          "x": 1.3,
+          "y": 1.1,
+          "w": 1.0,
+          "h": 2.8,
+          "face": "E",
+          "label": "Sofá 280"
+        },
+        {
+          "kind": "chaise",
+          "x": 2.3,
+          "y": 3.0,
+          "w": 0.8,
+          "h": 0.9,
+          "face": "E",
+          "label": "Chaise"
+        },
+        {
+          "kind": "coffee",
+          "x": 2.85,
+          "y": 1.97,
+          "w": 1.05,
+          "h": 0.7,
+          "face": "E",
+          "label": "Mesa"
+        },
+        {
+          "kind": "chair",
+          "x": 3.75,
+          "y": 0.48,
+          "w": 0.8,
+          "h": 0.8,
+          "face": "N",
+          "label": ""
+        },
+        {
+          "kind": "shelf",
+          "x": 3.2,
+          "y": 4.7,
+          "w": 2.44,
+          "h": 0.315,
+          "face": "E",
+          "label": "Biblioteca baixa"
+        },
+        {
+          "kind": "console",
+          "x": 5.28,
+          "y": 1.3,
+          "w": 0.36,
+          "h": 2.4,
+          "face": "E",
+          "label": "Móvel baixo"
+        }
+      ],
+      "portable": [
+        1.1,
+        3.5
+      ],
+      "extra": "Tomada de apoio na extremidade do sofá; comando de cinema acessível sentado.",
+      "lights": [
+        {
+          "id": "G1",
+          "x": 2.8,
+          "y": 1.0,
+          "type": "Teto",
+          "c": "C1",
+          "desc": "Plafon opalino; ambiente junto à fachada"
+        },
+        {
+          "id": "G2",
+          "x": 2.8,
+          "y": 4.1,
+          "type": "Teto",
+          "c": "C1",
+          "desc": "Plafon opalino; ambiente junto ao fundo"
+        },
+        {
+          "id": "A1",
+          "x": 0,
+          "y": 4.55,
+          "type": "Parede",
+          "c": "C2",
+          "desc": "Aplique lateral ao nicho; h proposta 1,80 m"
+        },
+        {
+          "id": "N1",
+          "x": 0,
+          "y": 3.5,
+          "type": "Nicho",
+          "c": "C3",
+          "desc": "Luz indireta no nicho; fonte oculta"
+        }
+      ],
+      "distance": 4.24,
+      "view": 3.74,
+      "inch": 108,
+      "ratio": 1.77
+    },
+    {
+      "id": 3,
+      "name": "Dois sofás, sala social",
+      "tag": "Mais lugares para receber",
+      "wall": "A",
+      "screen": 2.4,
+      "axis": 2.45,
+      "p": [
+        1.4,
+        2.45
+      ],
+      "eye": [
+        1.85,
+        2.45
+      ],
+      "seats": "3 lugares frontais + 2 transversais",
+      "route": "1,30 m atrás do sofá principal; entrada pela faixa esquerda",
+      "note": "Um sofá de 240 cm enfrenta a projeção; um segundo sofá de 190 cm fecha o grupo em L aberto. Duas mesas pequenas permitem adaptar o centro para visitas e jogos.",
+      "trade": "Só o sofá principal fica de frente para o filme. O segundo favorece a conversa e exige rodar o corpo para ver a projeção; é a proposta mais social.",
+      "rug": [
+        1.22,
+        0.95,
+        3.75,
+        3.35
+      ],
+      "furniture": [
+        {
+          "kind": "sofa",
+          "x": 1.3,
+          "y": 1.15,
+          "w": 0.95,
+          "h": 2.4,
+          "face": "E",
+          "label": "Sofá 240"
+        },
+        {
+          "kind": "sofa",
+          "x": 2.65,
+          "y": 3.65,
+          "w": 1.9,
+          "h": 0.85,
+          "face": "S",
+          "label": "Sofá 190"
+        },
+        {
+          "kind": "coffee",
+          "x": 2.85,
+          "y": 2.05,
+          "w": 0.7,
+          "h": 0.7,
+          "face": "E",
+          "label": "Mesa"
+        },
+        {
+          "kind": "coffee",
+          "x": 3.5,
+          "y": 2.35,
+          "w": 0.55,
+          "h": 0.55,
+          "face": "E",
+          "label": "Mesa"
+        },
+        {
+          "kind": "shelf",
+          "x": 4.99,
+          "y": 4.15,
+          "w": 0.65,
+          "h": 0.8,
+          "face": "E",
+          "label": "Aparador"
+        },
+        {
+          "kind": "console",
+          "x": 5.28,
+          "y": 1.25,
+          "w": 0.36,
+          "h": 2.4,
+          "face": "E",
+          "label": "Móvel baixo"
+        }
+      ],
+      "portable": [
+        1.1,
+        3.35
+      ],
+      "extra": "Tomadas para candeeiros nas duas extremidades do conjunto, fora dos percursos.",
+      "lights": [
+        {
+          "id": "G1",
+          "x": 2.8,
+          "y": 1.0,
+          "type": "Teto",
+          "c": "C1",
+          "desc": "Plafon opalino; ambiente junto à fachada"
+        },
+        {
+          "id": "G2",
+          "x": 2.8,
+          "y": 4.1,
+          "type": "Teto",
+          "c": "C1",
+          "desc": "Plafon opalino; ambiente junto ao fundo"
+        },
+        {
+          "id": "A1",
+          "x": 0,
+          "y": 4.55,
+          "type": "Parede",
+          "c": "C2",
+          "desc": "Aplique lateral ao nicho; h proposta 1,80 m"
+        },
+        {
+          "id": "N1",
+          "x": 0,
+          "y": 3.5,
+          "type": "Nicho",
+          "c": "C3",
+          "desc": "Luz indireta no nicho; fonte oculta"
+        }
+      ],
+      "distance": 4.24,
+      "view": 3.79,
+      "inch": 108,
+      "ratio": 1.77
+    },
+    {
+      "id": 4,
+      "name": "Biblioteca e leitura",
+      "tag": "Mais espaço para livros e um canto calmo",
+      "wall": "A",
+      "screen": 2.2,
+      "axis": 2.3,
+      "p": [
+        1.4,
+        2.3
+      ],
+      "eye": [
+        2.65,
+        2.3
+      ],
+      "seats": "3 lugares frontais + 1 de leitura",
+      "route": "Corredor de 1,05 m junto à poltrona; 1,47 m no fundo",
+      "note": "O sofá de 240 cm avança para o centro. A faixa libertada junto ao nicho recebe uma poltrona de leitura e a parede do fundo uma estante mais generosa. A projeção reduz ligeiramente para 99 polegadas.",
+      "trade": "O sofá aproxima-se da imagem. A estante alta fica apenas no fundo; a parede de projeção continua sem prateleiras ou quadros.",
+      "rug": [
+        2.0,
+        0.9,
+        2.95,
+        2.95
+      ],
+      "furniture": [
+        {
+          "kind": "sofa",
+          "x": 2.1,
+          "y": 1.15,
+          "w": 0.95,
+          "h": 2.4,
+          "face": "E",
+          "label": "Sofá 240"
+        },
+        {
+          "kind": "coffee",
+          "x": 3.52,
+          "y": 1.95,
+          "w": 0.9,
+          "h": 0.7,
+          "face": "E",
+          "label": "Mesa"
+        },
+        {
+          "kind": "chair",
+          "x": 0.3,
+          "y": 3.48,
+          "w": 0.75,
+          "h": 0.8,
+          "face": "E",
+          "label": ""
+        },
+        {
+          "kind": "shelf",
+          "x": 2.85,
+          "y": 4.67,
+          "w": 2.79,
+          "h": 0.345,
+          "face": "E",
+          "label": "Biblioteca alta"
+        },
+        {
+          "kind": "console",
+          "x": 5.28,
+          "y": 1.2,
+          "w": 0.36,
+          "h": 2.2,
+          "face": "E",
+          "label": "Móvel baixo"
+        }
+      ],
+      "portable": [
+        0.4,
+        4.4
+      ],
+      "extra": "Tomada para candeeiro de leitura ao lado da poltrona e alimentação da estante.",
+      "lights": [
+        {
+          "id": "G1",
+          "x": 2.8,
+          "y": 1.0,
+          "type": "Teto",
+          "c": "C1",
+          "desc": "Plafon opalino; ambiente junto à fachada"
+        },
+        {
+          "id": "G2",
+          "x": 2.8,
+          "y": 4.1,
+          "type": "Teto",
+          "c": "C1",
+          "desc": "Plafon opalino; ambiente junto ao fundo"
+        },
+        {
+          "id": "A1",
+          "x": 0,
+          "y": 4.55,
+          "type": "Parede",
+          "c": "C2",
+          "desc": "Aplique lateral ao nicho; h proposta 1,80 m"
+        },
+        {
+          "id": "N1",
+          "x": 0,
+          "y": 3.5,
+          "type": "Nicho",
+          "c": "C3",
+          "desc": "Luz indireta no nicho; fonte oculta"
+        },
+        {
+          "id": "E1",
+          "x": 4.25,
+          "y": 5.015,
+          "type": "Estante",
+          "c": "C2",
+          "desc": "Alimentação para luz integrada na estante"
+        }
+      ],
+      "distance": 4.24,
+      "view": 2.99,
+      "inch": 99,
+      "ratio": 1.93
+    },
+    {
+      "id": 5,
+      "name": "Cinema para o fundo",
+      "tag": "Alternativa com o eixo rodado",
+      "wall": "B",
+      "screen": 2.2,
+      "axis": 4.1,
+      "p": [
+        4.1,
+        0.9
+      ],
+      "eye": [
+        4.1,
+        1.7
+      ],
+      "seats": "3 lugares frontais + 2 poltronas móveis",
+      "route": "Faixa esquerda ampla; 1,15 m entre sofá e fachada",
+      "note": "O sofá de 260 cm fica paralelo à fachada e olha para o pano à direita de P7. A zona social desloca-se para a metade direita; as ligações às outras divisões ficam à esquerda.",
+      "trade": "O pano do fundo não aparece claramente nas fotografias. Esta opção depende de confirmar que está livre e plano. É a que mais altera a posição do projetor e da luz principal.",
+      "rug": [
+        2.5,
+        1.05,
+        3.0,
+        3.3
+      ],
+      "furniture": [
+        {
+          "kind": "sofa",
+          "x": 2.8,
+          "y": 1.15,
+          "w": 2.6,
+          "h": 0.95,
+          "face": "N",
+          "label": "Sofá 260"
+        },
+        {
+          "kind": "coffee",
+          "x": 3.5,
+          "y": 2.65,
+          "w": 1.1,
+          "h": 0.65,
+          "face": "E",
+          "label": "Mesa"
+        },
+        {
+          "kind": "chair",
+          "x": 2.65,
+          "y": 3.6,
+          "w": 0.78,
+          "h": 0.78,
+          "face": "S",
+          "label": ""
+        },
+        {
+          "kind": "chair",
+          "x": 4.75,
+          "y": 3.6,
+          "w": 0.75,
+          "h": 0.75,
+          "face": "S",
+          "label": ""
+        },
+        {
+          "kind": "shelf",
+          "x": 0,
+          "y": 2.95,
+          "w": 0.34,
+          "h": 1.65,
+          "face": "E",
+          "label": "Móvel sob nicho"
+        },
+        {
+          "kind": "console",
+          "x": 3.0,
+          "y": 4.65,
+          "w": 2.2,
+          "h": 0.365,
+          "face": "E",
+          "label": "Móvel baixo"
+        }
+      ],
+      "portable": [
+        0.45,
+        4.4
+      ],
+      "extra": "Alimentação do projetor perto da fachada; canalização até ao móvel do fundo.",
+      "lights": [
+        {
+          "id": "G1",
+          "x": 2.05,
+          "y": 1.0,
+          "type": "Teto",
+          "c": "C1",
+          "desc": "Plafon opalino; ambiente junto à fachada"
+        },
+        {
+          "id": "G2",
+          "x": 2.05,
+          "y": 4.1,
+          "type": "Teto",
+          "c": "C1",
+          "desc": "Plafon opalino; ambiente junto ao fundo"
+        },
+        {
+          "id": "A1",
+          "x": 0,
+          "y": 4.55,
+          "type": "Parede",
+          "c": "C2",
+          "desc": "Aplique lateral ao nicho; h proposta 1,80 m"
+        },
+        {
+          "id": "N1",
+          "x": 0,
+          "y": 3.5,
+          "type": "Nicho",
+          "c": "C3",
+          "desc": "Luz indireta no nicho; fonte oculta"
+        }
+      ],
+      "distance": 4.11,
+      "view": 3.31,
+      "inch": 99,
+      "ratio": 1.87
+    }
+  ]
+}

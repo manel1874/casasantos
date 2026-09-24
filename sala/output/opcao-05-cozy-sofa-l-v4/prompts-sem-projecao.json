@@ -1,0 +1,16 @@
+{
+  "mode": "Ferramenta integrada image_gen; edição pontual de imagens existentes",
+  "request": "Remover apenas a imagem projetada, preservando as simulações anteriores",
+  "variants": [
+    {
+      "view": "interior",
+      "input": "sala-cozy-l-vista-interior.webp",
+      "prompt": "Use case: precise-object-edit.\nThe input image is the EDIT TARGET. Make ONE surgical change: remove the projected movie image from the rear wall above the low media cabinet, as if the projector is switched off. Reconstruct a completely blank continuous warm matte plaster wall in that rectangular region, matching the adjacent wall color, fine texture, shadows and existing lamp illumination. No visible rectangle, no screen, no frame, no painting, no decoration, no glow or remnant of the film. Keep this wall fully clear for potential future projection.\nPreserve EVERYTHING ELSE exactly: same room proportions, openings, camera angle, framing, furniture, tailored L sofa, big right-wall wooden bookshelf and books, sideboard behind sofa, plants, rug, armchair, coffee table, media cabinet, lamps, daylight and warm ambient lighting. Do not dim the lamps, change the time of day, restyle the room or move any objects. Only the film projection disappears. Match original image quality and composition. No added text.\nMaintain the exact eye-level interior viewpoint."
+    },
+    {
+      "view": "geral",
+      "input": "sala-cozy-l-vista-geral.webp",
+      "prompt": "Use case: precise-object-edit.\nThe input image is the EDIT TARGET. Make ONE surgical change: remove the projected movie image from the rear wall above the low media cabinet, as if the projector is switched off. Reconstruct a completely blank continuous warm matte plaster wall in that rectangular region, matching the adjacent wall color, fine texture, shadows and existing lamp illumination. No visible rectangle, no screen, no frame, no painting, no decoration, no glow or remnant of the film. Keep this wall fully clear for potential future projection.\nPreserve EVERYTHING ELSE exactly: same room proportions, openings, camera angle, framing, furniture, tailored L sofa, big right-wall wooden bookshelf and books, sideboard behind sofa, plants, rug, armchair, coffee table, media cabinet, lamps, daylight and warm ambient lighting. Do not dim the lamps, change the time of day, restyle the room or move any objects. Only the film projection disappears. Match original image quality and composition. No added text.\nMaintain the exact elevated architectural cutaway viewpoint and all front facade glazing."
+    }
+  ]
+}

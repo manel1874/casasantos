@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sala · Modelo 3D dimensionado</title><style>
+*{box-sizing:border-box}body{margin:0;background:#eee8dc;color:#373c32;font:14px Arial,sans-serif}header{padding:19px 26px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}h1{font:30px Georgia,serif;margin:0 0 7px}p{margin:0;color:#6b6d61;line-height:1.55}nav{display:flex;flex-wrap:wrap;gap:7px}button,.button{font:inherit;padding:10px 14px;border:1px solid #b6bead;border-radius:24px;color:inherit;background:transparent;cursor:pointer;text-decoration:none}button[aria-pressed=true]{color:white;background:#59694d}button:disabled{opacity:.5;cursor:wait}button:focus-visible,a:focus-visible,select:focus-visible{outline:3px solid #ab743c;outline-offset:3px}.stage{position:relative}#scene{width:100%;height:calc(100vh - 240px);min-height:480px}canvas{display:block;touch-action:none}#labels{position:absolute;inset:0;pointer-events:none;overflow:hidden}.measure-label{position:absolute;transform:translate(-50%,-50%);white-space:nowrap;color:#304a34;background:#fff8e9e8;border:1px solid #d3c8b4;border-radius:4px;padding:4px 7px;font-size:12px}.measure-label[hidden]{display:none}.tools{padding:14px 26px;display:flex;gap:12px 20px;align-items:center;flex-wrap:wrap;border-top:1px solid #d0c4b0}.tools label{display:flex;gap:7px;align-items:center}select{font:inherit;max-width:100%;padding:8px;background:#f5efe4;color:#3c4835;border:1px solid #b6bead;border-radius:5px}a{color:#516447}.note{padding:0 26px 18px;font-size:12px;line-height:1.6;color:#747063}.downloads{margin:0 26px 24px;border-top:1px solid #d0c4b0;padding-top:14px;font-size:13px}.downloads summary{cursor:pointer;font-weight:bold}.download-grid{display:flex;gap:22px;flex-wrap:wrap;margin-top:12px}.download-grid p{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.download-grid strong{min-width:110px}.capture header,.capture .tools,.capture .note,.capture .downloads{display:none}.capture #scene{height:100vh;min-height:0}@media(max-width:760px){header{padding:16px}h1{font-size:26px}#scene{height:60vh;min-height:430px}nav button{padding:9px 11px;font-size:12px}.tools{padding:13px 16px;gap:11px}.note{padding:0 16px 16px}.downloads{margin:0 16px 20px}.measure-label{font-size:10px;padding:3px}}
+body.embedded{display:flow-root}.embedded header>div,.embedded .tools>a{display:none}.embedded header{padding:18px 20px 10px}.embedded #scene{height:clamp(360px,48vw,640px);min-height:0}.embedded .tools{padding:14px 20px}.embedded .note{padding:0 20px 15px}.embedded .downloads{margin:0 20px 20px}@media(max-width:760px){.embedded header{padding:14px 12px 8px}.embedded #scene{height:clamp(330px,90vw,480px)}.embedded .tools{padding:12px}.embedded .note{padding:0 12px 14px}.embedded .downloads{margin:0 12px 18px}}
+</style></head><body>
+<script>if(new URLSearchParams(location.search).get('embed')==='1')document.body.classList.add('embedded');</script>
+<header><div><h1>A sala, vista de todos os lados.</h1><p>5,64 × 5,015 m · Modelo da disposição atual, com sofá em L, biblioteca e aparador.</p></div>
+<nav aria-label="Vistas do modelo"><button data-view="general" aria-pressed="true">Vista geral</button><button data-view="reverse" aria-pressed="false">Rodar 180°</button><button data-view="top" aria-pressed="false">Superior</button><button data-view="interior" aria-pressed="false">Para o cinema</button><button data-view="reverseInterior" aria-pressed="false">Para a varanda</button></nav></header>
+<div class="stage"><main id="scene" role="img" aria-label="Modelo 3D da sala, que pode ser rodado e aproximado com rato ou toque"></main><div id="labels" aria-hidden="true"></div></div>
+<div class="tools">
+<label>Parede <select id="mode"><option value="quadro">Com quadro</option><option value="livre">Parede livre</option><option value="cinema">Com projeção</option></select></label>
+<label>Paredes <select id="walls"><option value="auto">Corte automático</option><option value="full">Completas</option><option value="low">Corte baixo</option></select></label>
+<label><input id="dimensions" type="checkbox">Medidas</label><label><input id="lighting" type="checkbox">Pontos de luz</label>
+<button id="svg" type="button">Guardar vista SVG</button><button id="glb" type="button">Guardar modelo 3D</button><a href="index.html">Voltar à galeria</a>
+</div>
+<p class="note"><span id="status" aria-live="polite">Arrasta para rodar · roda do rato ou dois dedos para aproximar</span><br>Geometria de estudo em metros. Pé-direito de 2,70 m assumido; posições e alturas dos vãos e do nicho por confirmar. A imagem de cinema é indicativa. O quadro é retirado antes do filme.</p>
+<details class="downloads"><summary>Modelos e vistas já guardados</summary><div class="download-grid">
+<p><strong>Com quadro</strong><a href="modelos-3d/sala-quadro.glb" download>Modelo GLB</a><a href="modelos-3d/sala-quadro-geral.svg" target="_blank">Vista SVG</a><a href="modelos-3d/sala-quadro-superior.svg" target="_blank">Superior SVG</a></p>
+<p><strong>Parede livre</strong><a href="modelos-3d/sala-livre.glb" download>Modelo GLB</a><a href="modelos-3d/sala-livre-geral.svg" target="_blank">Vista SVG</a><a href="modelos-3d/sala-livre-superior.svg" target="_blank">Superior SVG</a></p>
+<p><strong>Com projeção</strong><a href="modelos-3d/sala-cinema.glb" download>Modelo GLB</a><a href="modelos-3d/sala-cinema-geral.svg" target="_blank">Vista SVG</a><a href="modelos-3d/sala-cinema-superior.svg" target="_blank">Superior SVG</a></p>
+</div><p><a href="planta-cozy-l.svg">Planta de mobiliário</a> · <a href="luz-cozy-l.svg">Planta de luz</a> · <a href="modelo-3d.json">Dados e pressupostos do modelo</a></p></details>
+<script src="modelo-3d.js"></script><script>
+if(document.body.classList.contains('embedded')&&window.parent!==window){
+ const send=data=>window.parent.postMessage(data,'*');
+ let heightFrame;
+ const reportHeight=()=>{cancelAnimationFrame(heightFrame);heightFrame=requestAnimationFrame(()=>send({type:'sala3d:height',height:Math.ceil(document.body.getBoundingClientRect().height)}));};
+ new ResizeObserver(reportHeight).observe(document.body);
+ window.addEventListener('message',event=>{
+  if(event.source!==window.parent||event.data?.type!=='sala3d:set-mode')return;
+  if(['quadro','livre','cinema'].includes(event.data.mode))window.SALA3D.setMode(event.data.mode);
+ });
+ document.querySelector('#mode').addEventListener('change',event=>send({type:'sala3d:mode',mode:event.target.value}));
+ send({type:'sala3d:ready'});reportHeight();
+}
+</script></body></html>
